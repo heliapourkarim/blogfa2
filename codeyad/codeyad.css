@@ -1,0 +1,61 @@
+.trans{
+   
+    background: rgb(44, 44, 229);
+    width: 220px;
+    float: right;
+    margin-top: -10px;
+   height: 30px;
+}
+img{background-size: cover;
+size: 100%;
+}
+.trans:hover{
+    transition: all ease-in 1s;
+    opacity: 1;
+}
+a{
+    text-decoration: none;
+    color: #646464;}
+  
+p{ font-size: 17px;
+    direction: rtl;
+    font-weight: 600;
+    font-family: Dana-DemiBold;
+}
+.clock{position: relative;}
+.fa-solid fa-clock{color: #646464;
+padding-right: 10px;}
+pre{font-size: 13px;
+color: #646464;
+font-weight: 500;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+position: absolute;
+bottom: -2px;
+right: 10px;
+
+}
+
+
+.free{color: green;
+padding-right: 180px;
+font-weight: 500;
+}
+.trans{
+   
+    background: rgb(44, 44, 229);
+    width: 220px;
+    float: right;
+   position: absolute;
+   height: 30px;
+   top: 90px;
+   right:0px ;
+  opacity: 0;
+  border-radius: 15px;
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+}
+#trans{color: white;
+direction: rtl;
+padding-left: 90px;
+font-size: 15px;
+text-align: center;}
